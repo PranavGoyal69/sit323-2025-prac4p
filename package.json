@@ -1,15 +1,14 @@
 {
-  "dependencies": {
-    "express": "^4.21.2"
-  },
-  "name": "sit323-2025-prac2p",
+  "name": "docker_web_app",
   "version": "1.0.0",
-  "main": "index.js",
+  "description": "Node.Js on docker",
+  "author": "First Last <first.last@example.com>",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js"
+
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": ""
+  "dependencies": {
+    "express": "^4.17.1",
+  }
 }
